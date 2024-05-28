@@ -1,0 +1,32 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'CNET',
+  date: '2023-08-14',
+  title: 'Meta’s New AI Can Translate Speech and Text for Nearly 100 Languages',
+  description:
+    'Dubbed SeamlessM4T, the model is able to handle multiple kinds of translations.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Meta on Tuesday introduced a new "all-in-one" AI translation model that it framed as a major step forward in the "quest to create a universal translator." 
+
+The model, dubbed SeamlessM4T, is able to handle multiple kinds of translations -- including text to speech, speech to text, speech to speech and text to text -- across nearly 100 languages. Unlike other language translators that use multiple models, SeamlessM4T is a single system, which Meta says "reduces errors and delays" and increases the "efficiency and quality of the translation process."
+
+SeamlessM4T builds on Meta's previous AI work. In July 2022, the company launched its No Language Left Behind project, which uses AI to do text-to-text translations for 200 languages with an emphasis on improving translations for rarer or less commonly used languages. 
+
+The company has also released models that let you chat with AI bots with personalities, along with more information about how it uses AI to organize your Facebook and Instagram feeds.
+
+Like many major tech companies, Meta has put increased focus this year on developing and launching AI-powered tools and services. Microsoft released its new AI-infused Bing search in February, which uses the same technology that powers OpenAI's ChatGPT. Amazon recently said it will use generative AI to analyze and summarize customer reviews, and Google is testing a Search Generative Experience that "reimagines online search."
+
+AI is poised to disrupt nearly every industry sector, and has found its way into everything from fitness to hiring. When it comes to translation, AI is also used in tools like the Google Translate app to help add context to results. The rapid rise of generative AI has also raised concerns about the technology's risks and the potential effects on society.
+
+Like many of Meta's previous AI models, SeamlessM4T is being released under a research license to allow researchers and developers to build on top of the technology. Meta is also releasing the metadata for the project in a dataset named SeamlessAlign. Meta says that it's the biggest open-source multimodal dataset, containing 270,000 hours' worth of mined speech and text alignment on which its AI was trained. 
+
+For more technical information on SeamlessM4T, check out Meta's post on its AI blog or the company's research Github page. 

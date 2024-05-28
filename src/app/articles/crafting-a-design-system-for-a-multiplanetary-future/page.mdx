@@ -1,0 +1,33 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'AI News',
+  date: '2023-12-08',
+  title: 'AI & Big Data Expo: Demystifying AI and seeing past the hype',
+  description:
+    'At AI & Big Data Expo Global, Adam Craven showed how to leverage the power of AI while avoiding common pitfalls by demystifying the technology and understanding it beyond the hype.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+In a presentation at AI & Big Data Expo Global, Adam Craven, Director at Y-Align, shed light on the practical applications of AI and the pitfalls often overlooked in the hype surrounding it.
+
+<Image src={designSystem} alt="" />
+
+Craven — with an extensive background in engineering and leadership roles at McKinsey & Company, HSBC, Nokia, among others — shared his experiences as a consultant helping C-level executives navigate the complex landscape of AI adoption. The core message revolved around understanding AI beyond the hype to make informed decisions that align with organisational goals.
+
+## Breaking down the AI hype
+
+Craven introduced a systematic approach to demystifying AI, emphasising the need to break down the overarching concept into smaller, manageable components. He outlined key attributes of neural networks, embeddings, and transformers, focusing on large language models as a shared foundation.
+
+1. Neural networks — described as probabilistic and adaptable — form the backbone of AI, mimicking human learning processes.
+2. Embeddings allow computers to navigate between levels of abstraction, somewhat akin to human cognition.
+3. Transformers — the “attention” mechanism — are the linchpin of the AI revolution, allowing machines to understand context and meaning.
+
